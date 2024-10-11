@@ -50,6 +50,7 @@ Para ejecutar el script y crear la base de datos, utiliza el siguiente comando e
 
 ```bash
 python create_database.py
+```
 
 ### 2. `app.py`
 
