@@ -51,6 +51,18 @@ Para ejecutar el script y crear la base de datos, utiliza el siguiente comando e
 ```bash
 python create_database.py
 
+### 2. `app.py`
 
+El script `app.py` es la aplicación principal que permite hacer preguntas sobre la Constitución Española. Utiliza una combinación de recuperación de fragmentos de texto relevantes (RAG - Retrieval-Augmented Generation) y generación de respuestas utilizando la API de OpenAI y LangChain.
+Para poder correr la aplicación:
 
+El script `app.py` es la aplicación principal que permite hacer preguntas sobre la Constitución Española. Utiliza una combinación de recuperación de fragmentos de texto relevantes (RAG - Retrieval-Augmented Generation) y generación de respuestas utilizando la API de OpenAI y LangChain.
 
+#### Características:
+
+- **Interfaz de Texto**: Recibe la pregunta del usuario a través de una interfaz de texto.
+- **Búsqueda Semántica**: Busca fragmentos relevantes en **ChromaDB** utilizando los embeddings de OpenAI.
+- **Respuesta Contextual**: Genera una respuesta utilizando un **prompt template** que garantiza que la respuesta esté basada en el contexto de los fragmentos recuperados.
+
+```bash
+streamlit run app.py
