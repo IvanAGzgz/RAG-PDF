@@ -1,4 +1,4 @@
-# Preguntas y Respuestas sobre la Constitución Española con OpenAI y LangChain
+# Chatbot sobre la Constitución Española con OpenAI y LangChain 🦜
 
 Este proyecto implementa un sistema de **preguntas y respuestas** (Q&A) sobre la **Constitución Española** utilizando un enfoque de **Retrieval-Augmented Generation (RAG)**, mediante la base de datos **ChromaDB** y **OpenAI**. El sistema permite realizar preguntas sobre los artículos y funcionamiento de la Constitución Española, proporcionando respuestas basadas en el contenido de este documento.
 
